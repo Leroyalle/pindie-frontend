@@ -1,6 +1,6 @@
-import { data } from './data';
-
 //  no longer used
+
+import { data } from './data';
 
 export const getGamesByCategory = (category) => {
   return data.filter((game) => {
